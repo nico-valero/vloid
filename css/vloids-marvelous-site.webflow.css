@@ -663,22 +663,18 @@ figure {
 .proyectosinner {
   z-index: 6;
   position: relative;
-  overflow: hidden;
-  border-color: rgba(255, 255, 0, 0.61);
 }
 
 .proyectosslider {
-  background-image: url('../images/ragaglia3.webp');
-  background-position: 50% 0;
-  background-size: cover;
   position: absolute;
   inset: 5.6% 19.3% 4.8% 3.9%;
+  width: 76.9%;
+  overflow: hidden;
 }
 
-.proyectosslider.imageborderround {
-  justify-content: flex-start;
-  align-items: flex-end;
-  display: flex;
+.slideimg {
+  object-fit: cover;
+  object-position: 0% 0%;
 }
 
 .button-line-fill {
@@ -1072,7 +1068,7 @@ figure {
 
   .cell-7, .cell-8, .cell-9, .cell-10 {
     align-items: center;
-  }
+  }    
 }
 
 #w-node-_925f476b-76c8-51d6-162e-73ad31ab3452-1b312d39 {
@@ -1139,7 +1135,7 @@ figure {
     grid-template-columns: 1fr 200px;
   }
 
-  #w-node-_73e3009c-0599-a37d-cd76-b775dd745a5d-1b312d39 {
+  #w-node-_73e3009c-0599-a37d-cd76-b775dd745a59-1b312d39 {
     order: 9999;
   }
 
