@@ -364,11 +364,6 @@ figure {
   position: relative;
 }
 
-.proyectosinner {
-  z-index: 6;
-  position: relative;
-}
-
 .imageborderround {
   border-radius: var(--border-radius--small);
 }
@@ -665,12 +660,19 @@ figure {
   font-size: .94rem;
 }
 
+.proyectosinner {
+  z-index: 6;
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(255, 255, 0, 0.61);
+}
+
 .proyectosslider {
-  background-image: url('../images/ragagliaferreteriaindustrial2.webp');
+  background-image: url('../images/ragaglia3.webp');
   background-position: 50% 0;
   background-size: cover;
   position: absolute;
-  inset: 7.2% 20% 6.5% 4.6%;
+  inset: 5.6% 19.3% 4.8% 3.9%;
 }
 
 .proyectosslider.imageborderround {
