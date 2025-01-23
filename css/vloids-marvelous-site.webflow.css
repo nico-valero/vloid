@@ -643,6 +643,47 @@ figure {
   align-items: flex-end;
 }
 
+/* From Uiverse.io by Pradeepsaranbishnoi */ 
+.social-links,.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 34px;
+  width: 34px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 100px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: 60px;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
 .footerlink {
   margin-right: var(--spacing--md);
 }
@@ -1134,7 +1175,7 @@ figure {
     grid-template-columns: 1fr 200px;
   }
 
-  #w-node-_73e3009c-0599-a37d-cd76-b775dd745a59-1b312d39 {
+  #w-node-_73e3009c-0599-a37d-cd76-b775dd745a5d-1b312d39 {
     order: 9999;
   }
 
