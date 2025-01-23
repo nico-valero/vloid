@@ -672,7 +672,9 @@ figure {
 }
 
 .social-btn:hover {
-  width: 100px;
+  width: 96px;
+  background: var(--color--color);  
+  padding-left: 6px;
 }
 
 .social-btn:hover span {
