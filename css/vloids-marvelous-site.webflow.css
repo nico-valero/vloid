@@ -673,7 +673,7 @@ figure {
 
 .social-btn:hover {
   width: 96px;
-  background: var(--color--color);  
+  background: var(--color--color1);  
   padding-left: 6px;
 }
 
@@ -683,7 +683,7 @@ figure {
 }
 
 #linkedin svg {
-  fill: #0e76a8;
+  fill: var(--color--vloid);
 }
 
 .footerlink {
