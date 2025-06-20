@@ -729,10 +729,6 @@ figure {
   position: relative;
 }
 
-.portfolio-item:hover {
-  transform: scale(1.03);
-}
-
 .portfolio-item img {
   width: 100%;
   height: 200px;
@@ -768,7 +764,7 @@ figure {
 }
 
 .portfolio-link:hover img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .overlay-icon {
