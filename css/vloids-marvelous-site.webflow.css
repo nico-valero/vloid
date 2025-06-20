@@ -739,6 +739,7 @@ figure {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
 .portfolio-item:hover {
@@ -765,6 +766,52 @@ figure {
 .portfolio-info p {
   font-size: 0.95rem;
   color: #ccc;
+}
+
+.portfolio-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.portfolio-link img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-link:hover img {
+  transform: scale(1.03);
+}
+
+.overlay-icon {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.portfolio-link:hover .overlay-icon {
+  opacity: 1;
+}
+
+.overlay-icon i {
+  font-size: 20px;
+}
+
+.overlay-icon p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ccc;
+  margin: 0;
+  opacity: 0.9;
 }
 
 .button-line-fill {
