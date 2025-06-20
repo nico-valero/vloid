@@ -664,26 +664,13 @@ figure {
   width: 24px;
 }
 
-.social-btn span {
-  width: 0px;
-  overflow: hidden;
-  transition: 0.3s;
-  text-align: center;
-}
-
-.social-btn:hover {
-  width: 96px;
-  background: var(--color--color1);  
-  padding-left: 6px;
-}
-
-.social-btn:hover span {
-  padding: 2px;
-  width: 60px;
-}
-
 #linkedin svg {
   fill: var(--color--vloid);
+  transition: all .35s;
+}
+
+#linkedin svg:hover {
+  opacity: .4;
 }
 
 .footerlink {
